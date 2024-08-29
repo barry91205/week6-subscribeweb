@@ -1,0 +1,56 @@
+body{
+  font-family: "Noto Serif TC", serif;
+  line-height: 1.5;
+  // background-color: $primary-100;
+}
+
+.lato-font {
+  font-family: "Lato",sans-serif;
+}
+
+*,
+*::before,
+*::after {
+  box-sizing: border-box;
+}
+img {
+    max-width: 100%;
+    height: auto;
+    vertical-align: middle;
+  }
+  
+  a {
+    text-decoration: none;
+    color: inherit;
+    display: inline-block;
+  }
+  
+  h1,
+  h2,
+  h3,
+  h4,
+  h5,
+  h6 {
+    letter-spacing: 0.1em;
+  }
+  
+  p {
+    letter-spacing: 0.05em;
+  }
+
+  li {
+    list-style: none;
+  }
+
+  // ------------------------
+  .block-py {
+    padding-top: 80px;
+    padding-bottom: 80px;
+  }
+
+  @media (max-width: 576px) {
+    .block-py {
+      padding-top: 0px;
+      padding-bottom: 0px;
+    }
+  }

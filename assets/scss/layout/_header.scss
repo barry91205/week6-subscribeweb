@@ -1,0 +1,91 @@
+
+header {
+  background-color: $primary-100;
+  position: sticky;
+  top: 0;
+  z-index: 99;
+}
+// 文章搜尋 樣式
+.input-group {
+  max-width: 276px;
+  border: 1px solid #dee2e6;
+  border-radius: 100px;
+}
+.input-group-text {
+  border: none;
+  background-color: transparent;
+}
+.search-text{
+  color: $gray-500;
+}
+
+.form-control {
+  border: none;
+}
+
+.input-group:focus-within .search-text {
+  color: $gray-900;
+  font-weight: bold;
+}
+#search:focus {
+  outline: none;
+  box-shadow: none;
+  border-color: transparent;
+}
+
+.bi-search {
+  font-size: 24px;
+}
+
+//  navbar
+.header-nav {
+  align-items: center;
+  
+  li {
+    color: $gray-800;
+    font-weight: 700;
+    line-height: 19.2px;
+    letter-spacing: 10%;
+    a {
+      padding: 12px;
+    }
+  }
+}
+
+@media (max-width:1200px) and (min-width:992px) {
+  
+}
+
+@media (max-width: 992px) {
+
+  // .navbar-nav {
+  //   align-items: start;
+  //   width: 100%;
+  //   .nav-item {
+  //     margin-left: 0px;
+  //   }
+  // }
+
+  
+}
+
+@media (max-width: 576px) {
+  .input-group {
+    max-width: 100%;
+  }
+  .navbar-nav .login-btn {
+    width: 100%;
+    display: inline-block;
+    margin-bottom: 24px
+  }
+
+  .nav-item {
+    margin-bottom: 24px;
+  }
+  .navbar-nav {
+    align-items: start;
+    .nav-item {
+      margin-left: 0px;
+    }
+  }
+}
